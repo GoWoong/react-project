@@ -35,11 +35,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["immer", "npm:9.0.16"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:5c9a38f187b7011642a1a02569ca7103ea277c06722f663e524bca250c9073e2d780a085326c8f1555df766787ef29b0103f45a9f1d2aaee86fcd74f64cdaf09#npm:18.2.0"],\
+            ["react-icon", "virtual:5c9a38f187b7011642a1a02569ca7103ea277c06722f663e524bca250c9073e2d780a085326c8f1555df766787ef29b0103f45a9f1d2aaee86fcd74f64cdaf09#npm:1.0.0"],\
+            ["react-icons", "virtual:5c9a38f187b7011642a1a02569ca7103ea277c06722f663e524bca250c9073e2d780a085326c8f1555df766787ef29b0103f45a9f1d2aaee86fcd74f64cdaf09#npm:4.6.0"],\
             ["react-is", "npm:18.2.0"],\
             ["react-scripts", "virtual:5c9a38f187b7011642a1a02569ca7103ea277c06722f663e524bca250c9073e2d780a085326c8f1555df766787ef29b0103f45a9f1d2aaee86fcd74f64cdaf09#npm:5.0.1"],\
             ["styled-components", "virtual:5c9a38f187b7011642a1a02569ca7103ea277c06722f663e524bca250c9073e2d780a085326c8f1555df766787ef29b0103f45a9f1d2aaee86fcd74f64cdaf09#npm:5.3.6"],\
             ["tailwindcss", "virtual:5c9a38f187b7011642a1a02569ca7103ea277c06722f663e524bca250c9073e2d780a085326c8f1555df766787ef29b0103f45a9f1d2aaee86fcd74f64cdaf09#npm:3.2.1"],\
             ["use-immer", "virtual:5c9a38f187b7011642a1a02569ca7103ea277c06722f663e524bca250c9073e2d780a085326c8f1555df766787ef29b0103f45a9f1d2aaee86fcd74f64cdaf09#npm:0.7.0"],\
+            ["uuid", "npm:9.0.0"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
           "linkType": "SOFT"\
@@ -11289,11 +11292,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["immer", "npm:9.0.16"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:5c9a38f187b7011642a1a02569ca7103ea277c06722f663e524bca250c9073e2d780a085326c8f1555df766787ef29b0103f45a9f1d2aaee86fcd74f64cdaf09#npm:18.2.0"],\
+            ["react-icon", "virtual:5c9a38f187b7011642a1a02569ca7103ea277c06722f663e524bca250c9073e2d780a085326c8f1555df766787ef29b0103f45a9f1d2aaee86fcd74f64cdaf09#npm:1.0.0"],\
+            ["react-icons", "virtual:5c9a38f187b7011642a1a02569ca7103ea277c06722f663e524bca250c9073e2d780a085326c8f1555df766787ef29b0103f45a9f1d2aaee86fcd74f64cdaf09#npm:4.6.0"],\
             ["react-is", "npm:18.2.0"],\
             ["react-scripts", "virtual:5c9a38f187b7011642a1a02569ca7103ea277c06722f663e524bca250c9073e2d780a085326c8f1555df766787ef29b0103f45a9f1d2aaee86fcd74f64cdaf09#npm:5.0.1"],\
             ["styled-components", "virtual:5c9a38f187b7011642a1a02569ca7103ea277c06722f663e524bca250c9073e2d780a085326c8f1555df766787ef29b0103f45a9f1d2aaee86fcd74f64cdaf09#npm:5.3.6"],\
             ["tailwindcss", "virtual:5c9a38f187b7011642a1a02569ca7103ea277c06722f663e524bca250c9073e2d780a085326c8f1555df766787ef29b0103f45a9f1d2aaee86fcd74f64cdaf09#npm:3.2.1"],\
             ["use-immer", "virtual:5c9a38f187b7011642a1a02569ca7103ea277c06722f663e524bca250c9073e2d780a085326c8f1555df766787ef29b0103f45a9f1d2aaee86fcd74f64cdaf09#npm:0.7.0"],\
+            ["uuid", "npm:9.0.0"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
           "linkType": "SOFT"\
@@ -14584,6 +14590,54 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-icon", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/react-icon-npm-1.0.0-03a79ac27c-3c36c9a2ad.zip/node_modules/react-icon/",\
+          "packageDependencies": [\
+            ["react-icon", "npm:1.0.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:5c9a38f187b7011642a1a02569ca7103ea277c06722f663e524bca250c9073e2d780a085326c8f1555df766787ef29b0103f45a9f1d2aaee86fcd74f64cdaf09#npm:1.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-icon-virtual-47ad568c4f/0/cache/react-icon-npm-1.0.0-03a79ac27c-3c36c9a2ad.zip/node_modules/react-icon/",\
+          "packageDependencies": [\
+            ["react-icon", "virtual:5c9a38f187b7011642a1a02569ca7103ea277c06722f663e524bca250c9073e2d780a085326c8f1555df766787ef29b0103f45a9f1d2aaee86fcd74f64cdaf09#npm:1.0.0"],\
+            ["@types/babel-runtime", null],\
+            ["@types/react", null],\
+            ["babel-runtime", null],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/babel-runtime",\
+            "@types/react",\
+            "babel-runtime",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-icons", [\
+        ["npm:4.6.0", {\
+          "packageLocation": "./.yarn/cache/react-icons-npm-4.6.0-85b1c2c9bc-a08375d456.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "npm:4.6.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:5c9a38f187b7011642a1a02569ca7103ea277c06722f663e524bca250c9073e2d780a085326c8f1555df766787ef29b0103f45a9f1d2aaee86fcd74f64cdaf09#npm:4.6.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-icons-virtual-cc242fe1fb/0/cache/react-icons-npm-4.6.0-85b1c2c9bc-a08375d456.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "virtual:5c9a38f187b7011642a1a02569ca7103ea277c06722f663e524bca250c9073e2d780a085326c8f1555df766787ef29b0103f45a9f1d2aaee86fcd74f64cdaf09#npm:4.6.0"],\
+            ["@types/react", null],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react-is", [\
         ["npm:16.13.1", {\
           "packageLocation": "./.yarn/cache/react-is-npm-16.13.1-a9b9382b4f-f7a19ac349.zip/node_modules/react-is/",\
@@ -16684,6 +16738,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/uuid-npm-8.3.2-eca0baba53-5575a8a75c.zip/node_modules/uuid/",\
           "packageDependencies": [\
             ["uuid", "npm:8.3.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:9.0.0", {\
+          "packageLocation": "./.yarn/cache/uuid-npm-9.0.0-46c41e3e43-8dd2c83c43.zip/node_modules/uuid/",\
+          "packageDependencies": [\
+            ["uuid", "npm:9.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\

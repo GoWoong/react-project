@@ -8286,11 +8286,14 @@ __metadata:
     immer: ^9.0.16
     react: ^18.2.0
     react-dom: ^18.2.0
+    react-icon: ^1.0.0
+    react-icons: ^4.6.0
     react-is: ^18.2.0
     react-scripts: 5.0.1
     styled-components: ^5.3.6
     tailwindcss: ^3.2.1
     use-immer: ^0.7.0
+    uuid: ^9.0.0
     web-vitals: ^2.1.0
   languageName: unknown
   linkType: soft
@@ -10516,6 +10519,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-icon@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "react-icon@npm:1.0.0"
+  peerDependencies:
+    babel-runtime: ^5.3.3
+    react: ">=0.12.0"
+  checksum: 3c36c9a2ad076e480c352ba4e4006aba3ff7d57f2597ae6daad5becc18d9ceabe098234ddef6fcd1c9886cf751059ff487e49ec6ecdf7bc8bdac6a0deec4d033
+  languageName: node
+  linkType: hard
+
+"react-icons@npm:^4.6.0":
+  version: 4.6.0
+  resolution: "react-icons@npm:4.6.0"
+  peerDependencies:
+    react: "*"
+  checksum: a08375d4563e381e156d826a8d551dd26c1bf7c424a79139173bf4c8df71e884badd7d4f5fe9faa0d73d18ace265bcc89891b65fd8f808812b1011b612ebbc53
+  languageName: node
+  linkType: hard
+
 "react-is@npm:^16.13.1, react-is@npm:^16.7.0":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
@@ -12322,6 +12344,15 @@ __metadata:
   bin:
     uuid: dist/bin/uuid
   checksum: 5575a8a75c13120e2f10e6ddc801b2c7ed7d8f3c8ac22c7ed0c7b2ba6383ec0abda88c905085d630e251719e0777045ae3236f04c812184b7c765f63a70e58df
+  languageName: node
+  linkType: hard
+
+"uuid@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "uuid@npm:9.0.0"
+  bin:
+    uuid: dist/bin/uuid
+  checksum: 8dd2c83c43ddc7e1c71e36b60aea40030a6505139af6bee0f382ebcd1a56f6cd3028f7f06ffb07f8cf6ced320b76aea275284b224b002b289f89fe89c389b028
   languageName: node
   linkType: hard
 
